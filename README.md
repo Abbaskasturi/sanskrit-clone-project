@@ -1,4 +1,5 @@
-Sanskrit Bhagavad Gita Clone Project 
+**Sanskrit Bhagavad Gita Clone Project** 
+<br/> 
 App Link : https://sanskrit-clone-project.vercel.app/
 <!-- Carousel style: 3 images per view -->
 <div style="display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory;">
