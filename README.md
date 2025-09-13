@@ -1,3 +1,4 @@
+App Link : https://sanskrit-clone-project.vercel.app/
 <!-- Carousel style: 3 images per view -->
 <div style="display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory;">
 
@@ -43,3 +44,36 @@
   </div>
 
 </div>
+# Sanskrit Website Clone Project
+
+## Important Notes
+1. This project uses dummy data and dummy endpoints — not from the database or actual API points.  
+2. All components are located under the folder: `src/components`.
+
+---
+
+## Features
+- Single Page Application (SPA) — no need to re-render total data every time.  
+- Well-structured code — organized in separate folders.  
+- Contact Us component with features.  
+- Audio of song support.  
+- Lifestyle suggestions and advertisements.  
+- Meeting time, Zoom links, and Gmail integration.  
+- Sanskrit Website Clone project.  
+
+---
+
+## Setup Instructions
+
+Clone this repository and run it locally:
+
+```bash
+# Navigate to project folder
+cd myapp
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
