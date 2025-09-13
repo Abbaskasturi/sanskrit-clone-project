@@ -1,70 +1,37 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Carousel style: 3 images per view -->
+<div style="display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory;">
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762671/Screenshot_949_qd2i9a.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762737/Screenshot_950_uaag6o.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762797/Screenshot_951_ho7taw.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762808/Screenshot_952_aiapew.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762820/Screenshot_953_nfc2hw.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762833/Screenshot_955_ocvuoe.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762839/Screenshot_956_q2pubz.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762855/Screenshot_957_vkjzun.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762864/Screenshot_958_kz6vas.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762875/Screenshot_959_ziztir.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762889/Screenshot_960_biplr6.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762911/Screenshot_961_prbgrb.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762919/Screenshot_962_lgyoyf.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762929/Screenshot_963_dcpg75.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762938/Screenshot_964_ji4ovy.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762947/Screenshot_965_sxo7kt.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762953/Screenshot_966_kmreqw.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762965/Screenshot_967_palckb.png" width="250"/>
+  </div>
+  <div style="flex: 0 0 auto; display: flex; gap: 10px; scroll-snap-align: start;">
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762974/Screenshot_968_fsavip.png" width="250"/>
+    <img src="https://res.cloudinary.com/dsp32vyqi/image/upload/v1757762984/Screenshot_970_k2fjxk.png" width="250"/>
+  </div>
+</div>
