@@ -1,0 +1,44 @@
+
+.chapters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    padding: 20px;
+}
+
+
+.chapters-main-container {
+    background-image: url('https://res.cloudinary.com/dsp32vyqi/image/upload/v1757590890/gita_book_m43pug.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 2px solid #000000;
+    border-radius: 12px;
+}
+
+.id-no-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    transform: rotate(-45deg);
+    padding: 5px 0;
+}
+
+
+.id-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.chapter-no-links{
+    text-decoration: none;
+}

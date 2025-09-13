@@ -1,0 +1,86 @@
+.audio-container{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%; 
+    height: 100%; 
+    align-items: center; 
+}
+.song-audio{
+    background-image: url(https://res.cloudinary.com/dsp32vyqi/image/upload/v1757600089/song-frame_h11l2b.png);
+    background-size: cover; 
+    height: 300px; 
+    width: 250px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.whole-name{
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #ffffff; 
+    font-family: 'Roboto'; 
+}
+.audio-icon{
+    color: #ffffff; 
+    font-size: 30px; 
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  
+}
+.modal-content-1{
+  background-image: url("https://www.transparenttextures.com/patterns/gold-scale.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 650px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  background-color: burlywood;
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px; 
+}
+.modal-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.video-player {
+  margin-top: 10px;
+}

@@ -1,0 +1,93 @@
+.songs-main-container{
+    width: 100%; 
+    background: linear-gradient(to right, #E6E6C3, #F5F5BF); 
+
+}
+.arrow-icon{
+    color: red; 
+    font-size: 25px; 
+}
+.back-para{
+    color: red; 
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;  
+}
+.back-forward-container{
+    display: flex; 
+    flex-direction: row; 
+    width: 50px;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px; 
+}
+.red-line{
+    border: 1px solid red;  
+    width: 90%; 
+    margin-left: 30px; 
+
+}
+.verse-name{
+    color: red; 
+    font-family: 'Roboto';
+    font-size: 25px; 
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    padding-left: 10px; 
+}
+.chapter-name-no{
+    text-decoration: underline;
+    color: red; 
+    font-size: 25px; 
+    font-family: 'Roboto'; 
+    margin: 20px; 
+    text-align: center;
+    margin-bottom: 15px; 
+}
+.songs-items-container{
+    list-style-type: none; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+}
+.audio-container{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%; 
+    height: 100%; 
+    align-items: center; 
+}
+.song-audio{
+    background-image: url(https://res.cloudinary.com/dsp32vyqi/image/upload/v1757600089/song-frame_h11l2b.png);
+    background-size: cover; 
+    height: 250px; 
+    width: 150px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.whole-name{
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #ffffff; 
+    font-family: 'Roboto'; 
+}
+.audio-icon{
+    color: #ffffff; 
+    font-size: 30px; 
+}
+.back-link{
+    font-size: 15px; 
+    color: red; 
+    text-decoration: underline; 
+
+}

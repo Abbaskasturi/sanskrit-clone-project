@@ -1,0 +1,127 @@
+
+.obstacle-image-main-container {
+  background-image: url('https://motionarray.imgix.net/preview-736491-xt36ePQvnliK9iU2-large.jpg?w=1400&q=60&fit=max&auto=format'); 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+
+
+.knowledge-wrapper {
+  background: linear-gradient(to right, #F5EDD1, #F3E7B8);
+  width: 100vw; 
+  height: auto; 
+  padding-bottom: 50px;
+}
+
+.knowledge-section {
+  width: 100%; 
+}
+
+.knowledge-heading {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #2f3e2f;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+
+.knowledge-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.knowledge-title-image {
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
+
+.outer-all-cards-container {
+  width: 100%;  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row; 
+
+}
+
+.knowledge-all-cards {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  padding: 20px;
+}
+
+
+.knowledge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+  text-align: center;
+  justify-content: space-around;
+}
+
+.knowledge-subtitle {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.knowledge-image {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.knowledge-caption {
+  font-size: 16px;
+  font-style: italic;
+  color: #444;
+}
+
+
+.sub-title-container {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .knowledge-heading {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+
+  .knowledge-card {
+    width: 100%;
+  }
+
+  .knowledge-image {
+    width: 100%;
+    height: auto;
+  }
+}

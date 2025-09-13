@@ -1,0 +1,234 @@
+
+.contact-main-container {
+    background: linear-gradient(to right, #F5EDD1, #F3E7B8);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outer-submit-container{
+    width: 100%; 
+}
+.hidden-icon-container{
+    display: none; 
+}
+
+.outer-heading-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-heading-container {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+    color: #122D07;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.us-span {
+    color: red;
+}
+
+
+.intro-text {
+    text-align: center;
+    font-size: 22px;
+    margin: 10px auto 30px;
+    font-weight: 400;
+    width: 90%;
+    max-width: 700px;
+}
+
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.contact-form {
+    width: 90%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.each-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+.label-ele {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.input:focus,
+.contact-form textarea:focus {
+    border-color: #122D07;
+}
+
+.contact-form textarea {
+    min-height: 120px; 
+}
+
+
+.send-btn {
+    margin-top: 5px;
+    width: 140px;
+    padding: 10px;
+    background-color: #ffffff !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: center;
+}
+
+.send-btn:hover {
+    background-color: #f0f0f0 !important;
+}
+
+
+.contact-info {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 700px;
+}
+
+.contact-info a {
+    color: #122D07;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10px 40px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        padding: 15px;
+        background-color: transparent;
+    }
+
+    .send-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 756px){
+     .submit-container {
+        width: 40%; 
+    }.contact-info{
+        width: 40%; 
+    }.outer-submit-container{
+      width: 100%; 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-around;
+      align-items: center;
+}.icon-style{
+    font-size: 20px; 
+    color: green;
+    margin-left: 10px; 
+}.icon-text{
+    font-weight: 400; 
+    color: green; 
+}.hidden-icon-container{
+    display: block; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}.contact-heading {
+    color: #122D07;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+
+}.outer-heading-container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.intro-text{
+    font-size: 30px; 
+}.label-ele{
+    font-size: 20px;
+    font-weight: 400; 
+}.input{
+    font-size: 25px; 
+}.contact-details{
+    font-size: 20px; 
+}
+}

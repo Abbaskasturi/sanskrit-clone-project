@@ -1,0 +1,13 @@
+.yoga-image-main-container {
+  background-image: url('https://bethesdahealth.org/wp-content/uploads/2017/05/iStock-600177016-1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
