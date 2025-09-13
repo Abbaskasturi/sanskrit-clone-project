@@ -1,3 +1,4 @@
+Sanskrit Bhagavad Gita Clone Project 
 App Link : https://sanskrit-clone-project.vercel.app/
 <!-- Carousel style: 3 images per view -->
 <div style="display: flex; overflow-x: auto; gap: 10px; scroll-snap-type: x mandatory;">
@@ -59,7 +60,8 @@ App Link : https://sanskrit-clone-project.vercel.app/
 - Audio of song support.  
 - Lifestyle suggestions and advertisements.  
 - Meeting time, Zoom links, and Gmail integration.  
-- Sanskrit Website Clone project.  
+- Sanskrit Website Clone project.
+- To learn the Bhagavad Gita Songs from it  
 
 ---
 
